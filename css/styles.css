@@ -2,3 +2,28 @@ h1 {
     color: blue;
 }
 
+.row:after {
+    clear:both;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    height: 50px;
+}
+
+#box1 {
+    background-color: blue;
+}
+
+#box2 {
+    background-color: blueviolet;
+}
+
+#box3 {
+    background-color: aqua;
+}
+
+#box4 {
+    background-color: lightblue;
+}
